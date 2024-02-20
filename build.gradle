@@ -55,8 +55,3 @@ tasks.withType(Test) {
     }
 }
 
-task apiPrime(type: Test) {
-    useJUnitPlatform {
-        includeTags("ApiPrime")
-    }
-}
