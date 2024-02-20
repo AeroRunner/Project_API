@@ -1,0 +1,17 @@
+{
+  "base": {
+    "project": "",
+    "environment": "Selenoid, Chrome/Firefox",
+    "comment": "Test notifications for Jenkins",
+    "reportLink": "",
+    "language": "en",
+    "messenger": "telegram",
+    "allureFolder": "allure-report",
+    "enableChart": true
+  },
+  "telegram": {
+    "token": "6884428534:AAEU68GY1eR8cu_yuazCfwN5H7_eW7hRX10",
+    "chat": "-1002134228540",
+    "replyTo": ""
+  }
+}
