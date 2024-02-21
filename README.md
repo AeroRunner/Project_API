@@ -47,7 +47,7 @@
 ### Команда запуска тестов локально в IDE
 * <code>gradle clean test -Dhost=local  </code> : Запуск тестов локально
 * <code>gradle clean test -Dhost=remote </code> : Запуск тестов удаленно
-* 
+  
 ### Команда запуска тестов в Jenkins
 ```
 gradle clean
