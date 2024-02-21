@@ -33,7 +33,7 @@
 - Так же отчеты о тестировании отправляются в мессенджер при помощи <code>Telegram</code> бота
 - Реализована интеграция  с [Allure TestOps](https://qameta.io/)
 - Реализована интеграция с [Jira Software](https://www.atlassian.com/software/jira)
-- -Реализация API тестов при помощи <code>RestAssured</code>
+- Реализация API тестов при помощи <code>RestAssured</code>
 
 ## :computer: Список auto-тестов проекта Reqres.in
 * Создание новго пользователя
