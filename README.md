@@ -108,11 +108,3 @@ ${TASK}
 <p align="center">
 <img width="70%" title="Telegram Notifications" src="mediaReadme/screens/TelegramScreen1.png"> 
 </p>
-
-### <img width="7%" style="vertical-align:middle" title="Selenoid" src="mediaReadme/logo/Selenoid.svg"> Selenoid : Видео прохождения теста в отчете
-
-При интеграции с <code>AllureReports</code> вместе с общим результатом  тест-кейса прикладываются media файлы : скриншот и видео. Вот пример видео в отчете о завершенном тесте:
-<p align="center">
-  <img title="Selenoid Browser Video" src="mediaReadme/gif/SelenoidTest.gif">
-</p>
-
