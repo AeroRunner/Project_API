@@ -45,22 +45,20 @@
 ## :arrow_forward: Запуск автотестов
 
 ### Команда запуска тестов локально в IDE
-* <code>gradle clean test -Dhost=local  </code> : Запуск тестов локально
-* <code>gradle clean test -Dhost=remote </code> : Запуск тестов удаленно
+* <code>gradle clean test -Ddata=user  </code> 
   
 ### Команда запуска тестов в Jenkins
 ```
-gradle clean
-${TASK}
--Dbrowser=${BROWSER}
--Dversion=${VERSION}
+clean
+test
+-Ddata=user
 ```
 При запуске из <code>Jenkins</code> тест будет выполняться удаленно в браузере при помощи <code>Selenoid</code>
 
 
 ## <img width="7%" style="vertical-align:middle" title="Jenkins" src="mediaReadme/logo/Jenkins.svg"> Автоматическая сборка в Jenkins
 
-Для запуска сборки необходимо перейти в раздел <code>Build with Parameters</code>, выбрать нужные вам параметры в <code>browser,version</code> и нажать кнопку <code>Build</code>.
+Для запуска сборки необходимо перейти в раздел <code>Build with Parameters</code>, выбрать нужную вам таску в <code>tasks</code> и нажать кнопку <code>Build</code>.
 <p align="center">
 <img title="Jenkins Build" src="mediaReadme/screens/JenkinsBuild.png">
 </p>
