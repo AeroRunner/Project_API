@@ -37,7 +37,6 @@ dependencies {
             "io.qameta.allure:allure-rest-assured:$allureVersion",
             "org.junit.jupiter:junit-jupiter:5.10.1",
             "io.github.bonigarcia:webdrivermanager:5.6.3",
-            "com.codeborne:selenide:6.19.1",
             "org.aeonbits.owner:owner:1.0.12")
     testRuntimeOnly ("org.slf4j:slf4j-simple:2.0.9")
 }
